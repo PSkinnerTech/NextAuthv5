@@ -1,8 +1,5 @@
-import { LoginForm } from "@/components/auth/login-form";
-import React from "react";
+import { DynamicWidget } from "@/lib/dynamic";
 
-const Login = () => {
-  return <LoginForm />;
-};
-
-export default Login;
+export default function Login() {
+  return <DynamicWidget />;
+}
