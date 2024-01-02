@@ -1,12 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import {
-  DynamicContextProvider,
-  DynamicWidget,
-} from "@dynamic-labs/sdk-react-core";
+import { DynamicContextProvider, DynamicWidget } from "@/lib/dynamic";
 
-import { EthereumWalletConnectors } from "@dynamic-labs/ethereum";
+import { EthereumWalletConnectors } from "@/lib/dynamic";
 
 const inter = Inter({ subsets: ["latin"] });
 
